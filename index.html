@@ -1,0 +1,98 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 140px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 150%;
+    left: 50%;
+    margin-left: -75px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+</style>
+</head>
+<body>
+
+<h1>Click on the button below to copy the dogecoin address and paste on your wallet /exchange to deposit/invest dogecoin.</h1>
+
+<input type="text" value="D8RF5GL8yRaJeW2a6VPahbcbmATUxA37Xj" id="myInput">
+
+<div class="tooltip">
+<button onclick="myFunction()" onmouseout="outFunc()">
+  <span class="tooltiptext" id="myTooltip">Copy to clipboard</span>
+  Copy doge address
+  </button>
+</div>
+
+
+<script>
+function myFunction() {
+  var copyText = document.getElementById("myInput");
+  copyText.select();
+  document.execCommand("copy");
+  
+  var tooltip = document.getElementById("myTooltip");
+  tooltip.innerHTML = "Copied: " + copyText.value;
+}
+
+function outFunc() {
+  var tooltip = document.getElementById("myTooltip");
+  tooltip.innerHTML = "Copy to clipboard";
+}
+</script>
+
+	<style>
+		body {
+			background-color: blue
+		}
+	</style>
+<title>Dollar Doge</title>
+<h1>524 USERS</h1>
+
+</head>
+<body>
+
+<h1 style="color: pink;">WELCOME TO DOLLAR DOGE</h1>
+<h2>What is dollar doge?
+Dollar doge is a unique contract that allows her fellow crypto currency holders to invest a certain quantity of doge to earn upto 500$ daily ROI.Minimum investment is 100 dogecoin no max. multiple investment is allowed lets do a little calculation: for every 100doge invested you recieve 1$ DAILY, For every 200 dogecoin invested you recieve 2$ DAILY E.T.C....  </h2>
+<h1>The most unique thing about DOLLAR DOGE is NO REFFERRAL NO AFFLIATE BONUS NO REF.LINK NO PROMO!our reasons are:
+1.We dont want to go bankrupt 
+2.We only take maximum of 10k memembers per/month so we can manage both members and funds well.
+3.We are not dependent on crowdfunding neither are we dependent on affliates!
+</h1>
+<h2>Withdrawal is automatic :THE DOGECOIN WALLET ADDRESS YOU USED TO INVEST AUTOMATICALLY BECOMES YOUR RECIEVING ADDRESS.
+PLEASE OUR INVESTMENT ADDRESS IS DOGECOIN NOT BEP20....</h2>
+<H2>NO REFFERAL NO TASK NO STRESS EARN AS LOW AS 1$ FOR 90DAYS WITH A ONE TIME INVESTMENT ENJOY!</H2>
+</body>
